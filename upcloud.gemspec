@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jamo@isotalo.fi"]
   spec.summary       = %q{Command line cli for upcloud.fi api}
   #spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.homepage      = "jamox.github.io/upcloud"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency "httparty", "~>0.13.1"
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
 end

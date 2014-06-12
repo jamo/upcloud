@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'upcloud'
+rescue
+  require 'rubygems'
+  require 'upcloud'
+end
+
+Upcloud::Upcloud.new.do_it(ARGV)
