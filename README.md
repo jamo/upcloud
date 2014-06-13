@@ -24,6 +24,10 @@ Or install it yourself as:
 * [x] Start   - start server by UUID - TODO: add other identification methos
 * [x] Stop    - stop server by UUID - TODO: add other identification  methos
 
+## Implementation details
+
+It stores your credentials in $HOME/.upcloud as plaintext - for http
+basic auth - TODO: just keep username and HTTP Basic token
 ## Usage
 
 TODO: Write usage instructions here
