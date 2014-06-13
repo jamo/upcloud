@@ -18,11 +18,20 @@ Or install it yourself as:
 
 ## Features
 
-* [x] Account - print account info
-* [x] List    - list resources
-* [x] Price   - print pricing details
-* [x] Start   - start server by UUID - TODO: add other identification methos
-* [x] Stop    - stop server by UUID - TODO: add other identification  methos
+* [x] Account       - print account info
+* [x] List          - list resources
+* [x] Price         - print pricing details
+* [x] Start         - start server by UUID - TODO: add other identification methos
+* [x] Stop          - stop server by UUID - TODO: add other identification  methos
+* [x] ServerSize    - list available server sizes
+* [x] Zone          - list zones
+* [x] Timezone      - list timezones
+
+## TODO
+
+* [ ] Implement Server states - [started, stopped, maintenance, error]
+* [ ] Implement Server Creation (7.5, p21)
+
 
 ## Implementation details
 
