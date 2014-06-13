@@ -31,6 +31,7 @@ Or install it yourself as:
 
 * [ ] Implement Server states - [started, stopped, maintenance, error]
 * [ ] Implement Server Creation (7.5, p21)
+* [ ] Implement Server Cloning (7.5, p21)
 
 
 ## Implementation details
