@@ -1,12 +1,13 @@
 module Upcloud
   require 'httparty'
+  require 'upcloud/my_config'
   class BaseCommand
 
     include HTTParty
     base_uri "https://api.upcloud.com/1.1/"
 
     #debug_output
-    basic_auth "username", "pasword"
+    basic_auth ::Upcloud::MyConfig.username, ::Upcloud::MyConfig.password
 
 
     def get(url, params)

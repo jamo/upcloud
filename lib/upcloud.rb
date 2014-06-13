@@ -1,4 +1,5 @@
 require "upcloud/base_command"
+require "upcloud/my_config"
 require "upcloud/results_formatter"
 require "upcloud/version"
 require 'ostruct'
