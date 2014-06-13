@@ -3,8 +3,10 @@ module Upcloud
   class BaseCommand
 
     include HTTParty
-    base_uri = "https://api.upcloud.fi/1.1/"
-    basic_auth "username", "password"
+    base_uri "https://api.upcloud.com/1.1/"
+
+    #debug_output
+    basic_auth "username", "pasword"
 
 
     def get(url, params)
