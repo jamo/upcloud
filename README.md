@@ -16,6 +16,14 @@ Or install it yourself as:
 
     $ gem install upcloud
 
+## Features
+
+* [x] Account - print account info
+* [x] List    - list resources
+* [x] Price   - print pricing details
+* [x] Start   - start server by UUID - TODO: add other identification methos
+* [x] Stop    - stop server by UUID - TODO: add other identification  methos
+
 ## Usage
 
 TODO: Write usage instructions here
