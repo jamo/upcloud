@@ -7,14 +7,10 @@ module Upcloud
 
       def preferences
 
-        puts "haetaan asetuksia"
         $preferences ||=
           if File.exists? path
-            puts "Filu ladattu"
             YAML.load(File.read(path))
           else
-
-            puts "Filu ei ladattu"
             {}
           end
         $preferences
