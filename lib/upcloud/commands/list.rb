@@ -5,12 +5,17 @@ module Upcloud
 
       def parameters
 
-        nil
+        {}
       end
 
       def end_url
 
-        "server"
+        "/server"
+      end
+
+      def do_it(args)
+
+        format get(end_url, parameters)
       end
 
     end

@@ -18,6 +18,8 @@ module Upcloud
       str = case code
       when 200..299
         green("Code: #{code}")
+      when 400..499
+        red("Code: #{code}")
       else
          "lol"
       end
