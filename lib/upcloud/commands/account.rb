@@ -1,21 +1,21 @@
+
 module Upcloud
   module Command
 
-    class Start < BaseCommand
+    class Account < BaseCommand
 
       def parameters
-
+        {}
       end
 
       def end_url
 
-        "server/#{$uuid}/start"
+        "/account/"
       end
 
       def do_it(args)
 
-       puts "Starting #{$uuid}"
-       post(end_url, parameters)
+        format get(end_url, parameters)
       end
 
     end

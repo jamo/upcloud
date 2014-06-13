@@ -8,11 +8,17 @@ module Upcloud
 
 
     def get(url, params)
-      raise "implement"
+      params ||= {}
+      self.class.get(url,params)
     end
 
-    def post(url, params)
-      raise "implement"
+    def post(url, params={})
+      params ||= {}
+      self.class.post(url,params)
+    end
+
+    def format(json)
+      ResultsFormatter.new.format(json)
     end
   end
 end
