@@ -32,6 +32,13 @@ Or install it yourself as:
 * [ ] Implement Server states - [started, stopped, maintenance, error]
 * [ ] Implement Server Creation (7.5, p21)
 * [ ] Implement Server Cloning (7.5, p21)
+* [ ] Implement Server Modification (new devices, boot order(7.9, p35)
+* [ ] Storages (8.1)
+* [ ] Backups (8.15)
+* [ ] IP addresses (9.0)
+* [ ] Firewall (10.0)
+
+
 
 
 ## Implementation details
